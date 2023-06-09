@@ -1,0 +1,80 @@
+name: socialapp
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  country_pickers: ^2.0.0
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: Abril Fatface
+      fonts: 
+        - asset: assets/fonts/AbrilFatfaceRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanLight.ttf
+          weight: 300
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+    - family: ABeeZee
+      fonts: 
+        - asset: assets/fonts/ABeeZeeItalic.ttf
+          weight: 400
+    - family: Prompt
+      fonts: 
+        - asset: assets/fonts/PromptBold.ttf
+          weight: 700
+        - asset: assets/fonts/PromptMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PromptRegular.ttf
+          weight: 400
+    - family: Actor
+      fonts: 
+        - asset: assets/fonts/ActorRegular.ttf
+          weight: 400
+    - family: Adamina
+      fonts: 
+        - asset: assets/fonts/AdaminaRegular.ttf
+          weight: 400
